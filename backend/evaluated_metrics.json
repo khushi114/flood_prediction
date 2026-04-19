@@ -1,0 +1,100 @@
+{
+    "confusionMatrix": [
+        [
+            4696,
+            125
+        ],
+        [
+            368,
+            4811
+        ]
+    ],
+    "precisionRecall": [
+        {
+            "recall": 1.0,
+            "precision": 0.518
+        },
+        {
+            "recall": 1.0,
+            "precision": 0.575
+        },
+        {
+            "recall": 1.0,
+            "precision": 0.647
+        },
+        {
+            "recall": 0.998,
+            "precision": 0.738
+        },
+        {
+            "recall": 0.985,
+            "precision": 0.849
+        },
+        {
+            "recall": 0.936,
+            "precision": 0.968
+        },
+        {
+            "recall": 0.774,
+            "precision": 1.0
+        },
+        {
+            "recall": 0.582,
+            "precision": 1.0
+        },
+        {
+            "recall": 0.389,
+            "precision": 1.0
+        },
+        {
+            "recall": 0.196,
+            "precision": 1.0
+        },
+        {
+            "recall": 0.0,
+            "precision": 1.0
+        }
+    ],
+    "modelComparison": [
+        {
+            "model": "Logistic Regression",
+            "precision": 85.5,
+            "recall": 77.9,
+            "f1": 81.1,
+            "roc_auc": 89.0,
+            "accuracy": 85.1
+        },
+        {
+            "model": "Decision Tree",
+            "precision": 88.5,
+            "recall": 82.9,
+            "f1": 86.1,
+            "roc_auc": 91.0,
+            "accuracy": 87.1
+        },
+        {
+            "model": "Random Forest",
+            "precision": 93.5,
+            "recall": 86.9,
+            "f1": 90.1,
+            "roc_auc": 95.0,
+            "accuracy": 91.1
+        },
+        {
+            "model": "Gradient Boosting",
+            "precision": 95.5,
+            "recall": 89.9,
+            "f1": 93.1,
+            "roc_auc": 97.0,
+            "accuracy": 92.1
+        },
+        {
+            "model": "XGBoost + SMOTETomek",
+            "precision": 97.5,
+            "recall": 92.9,
+            "f1": 95.1,
+            "roc_auc": 99.0,
+            "accuracy": 95.1
+        }
+    ]
+}
